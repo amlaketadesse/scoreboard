@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    height: 250px;
+    margin: 100px auto;
+    background: navy;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addition {
+    display: flex;
+}
+
+h3 {
+    color: white;
+}
+
+#score, #guest__score{
+    color: red;
+    font-size: 48px;
+    padding: 12px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.score__background {
+    content: "";
+    width: 100px;
+    height: 80px;
+    margin-bottom: 24px;
+    background: black
+}
+
+#plus {
+    color: white;
+    border: white solid 1px;
+    font-size: 1tpx;
+    margin-left: 4px;
+}
+
+button {
+    color: white;
+    background: transparent;
+}
